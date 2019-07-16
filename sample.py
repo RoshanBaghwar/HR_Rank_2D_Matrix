@@ -4,7 +4,7 @@ S = set()
 for i in range(R):
 	for j in range(C):
 		S.add(arr[i][j])
-
+S = sorted(S)
 D = dict()
 rank = 1
 for i in S:
